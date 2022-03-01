@@ -21,15 +21,15 @@ module.exports = {
         ],
         "multiline-ternary": ["off"],
         "comma-dangle": ["error", "only-multiline"],
-        "no-tabs": ["error", { allowIndentationTabs: true }],
-        "no-trailing-spaces": ["error", { skipBlankLines: true }],
-        "no-trailing-spaces": ["error", { ignoreComments: true }],
+        "no-tabs": ["error", { "allowIndentationTabs": true }],
+        "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+        "no-trailing-spaces": ["error", { "ignoreComments": true }],
         quotes: [
             "error",
             "double",
             {
-                allowTemplateLiterals: true,
-                avoidEscape: true
+                "allowTemplateLiterals": true,
+                "avoidEscape": true
             }
         ]
     }

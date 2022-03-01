@@ -8,7 +8,7 @@ const useMockData = () => {
     const statusConsts = {
         idle: "Not started",
         pending: "In process",
-        success: "Ready",
+        successed: "Ready",
         error: "Error occured"
     };
     const [error, setError] = useState();

@@ -1,6 +1,15 @@
 {
     "name": "fast-company",
     "version": "0.1.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/objects.js",
+            "runtimeExecutable": "/home/user/.nvm/versions/node/v14.17.5/bin/node"
+        }
+    ],
     "private": true,
     "dependencies": {
         "@reduxjs/toolkit": "^1.7.1",
@@ -13,6 +22,7 @@
         "eslint-plugin-prettier": "^3.4.1",
         "lodash": "^4.17.15",
         "nanoid": "^3.2.0",
+        "node": "^14.17.5",
         "prop-types": "^15.7.2",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
